@@ -1,7 +1,13 @@
+import ThemeToggle from "@/components/shared/theme-toggle";
+
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="fon-bold text-blue-500 font-barlow">Welcome to the home page</h1>
+    <div className="p-5">
+      <div className="w-100 flex justify-end">
+        <ThemeToggle />
+      </div>
+      <h1 className=" text-blue-500">Welcome to the home page</h1>
     </div>
   );
 }
